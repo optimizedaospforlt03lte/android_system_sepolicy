@@ -49,6 +49,7 @@ type mqueue, fs_type;
 type fuse, sdcard_type, fs_type, mlstrustedobject;
 type sdcardfs, sdcard_type, fs_type, mlstrustedobject;
 type vfat, sdcard_type, fs_type, mlstrustedobject;
+type sdcard_posix, sdcard_type, fs_type, mlstrustedobject;
 type debugfs, fs_type;
 type debugfs_trace_marker, fs_type, debugfs_type, mlstrustedobject;
 type debugfs_tracing, fs_type, debugfs_type;
@@ -58,6 +59,7 @@ type oemfs, fs_type, contextmount_type;
 type usbfs, fs_type;
 type binfmt_miscfs, fs_type;
 type app_fusefs, fs_type, contextmount_type;
+type fuseblk, sdcard_type, fs_type, mlstrustedobject;
 
 # File types
 type unlabeled, file_type;
